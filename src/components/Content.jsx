@@ -6,7 +6,10 @@ const Content = (props) => {
 
   return (
     <>
-      <div className={props.bg}></div>
+      <div className={props.bg}>
+        <Title name={props.name} />
+        <Description text={props.text} />
+      </div>
     </>
   );
 };
