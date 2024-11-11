@@ -4,7 +4,7 @@ import Content from "./components/Content";
 const App = () => {
   return (
     <>
-      <div className="lorem">
+      <div className="container-properties">
         <h1>Lorem</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab
@@ -15,7 +15,7 @@ const App = () => {
         </p>
       </div>
 
-      <div className="ipsum">
+      <div className="container-properties">
         <h1>Ipsum</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quasi
