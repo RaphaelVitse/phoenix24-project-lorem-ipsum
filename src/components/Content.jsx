@@ -4,8 +4,11 @@ import Description from "../components/Description";
 const Content = (props) => {
   console.log("props Content => " + props);
 
-  return;
-  <></>;
+  return (
+    <>
+      <div className={props.bg}></div>
+    </>
+  );
 };
 
 export default Content;

@@ -1,9 +1,14 @@
 import "./App.css";
+
 import Content from "./components/Content";
 
 const App = () => {
   return (
     <>
+      <Content bg="container-properties" name="test" />
+      <Content bg="container-properties" name="test" />
+
+      {/* ------------------------------------------------------- */}
       <div className="container-properties">
         <h1>Lorem</h1>
         <p>
@@ -14,7 +19,6 @@ const App = () => {
           quia nobis nihil error corrupti autem? Fugit non pariatur veritatis!
         </p>
       </div>
-
       <div className="container-properties">
         <h1>Ipsum</h1>
         <p>
