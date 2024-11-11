@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.lorem,
+.ipsum {
+  padding: 15px;
+  width: 600px;
+  background-color: lightgray;
+  margin-bottom: 55px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
